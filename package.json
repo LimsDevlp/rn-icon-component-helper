@@ -1,6 +1,6 @@
 {
     "name": "rn-button-component-helper",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Cross-platform button for React Native which supports keyword button component, custom button, etc",
     "main": "index.js",
     "scripts": {
