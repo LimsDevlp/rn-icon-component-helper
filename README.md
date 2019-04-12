@@ -7,7 +7,7 @@ Features:
 * Default styling works well
 * Extensively customisable styling and rendering
 * Many button type variations:
-    `small`, `normal`, `big`, etc.  
+    `small round`, `normal round`, `big round`, `small box`, `normal box`, `big box`, etc.  
 
 ## Installation
 
@@ -18,7 +18,7 @@ Use Yarn to install package: `yarn add rn-button-component-helper`
 ## Props
 
 - `activeOpacity`: Determines what the opacity of the wrapped view should be when touch is active. Defaults to 0.2.
-- `type`: The variants of button. Default to normal
+- `type`: The variants of button. Default to normal round
 - `text`: Text of button. Default to none
 - `onPress`: Called when the touch is released, but not if cancelled (e.g. by a scroll that steals the responder lock).
 - `accessibilityLabel`: Overrides the text that's read by the screen reader when the user interacts with the element.
@@ -31,12 +31,8 @@ Use Yarn to install package: `yarn add rn-button-component-helper`
 import RNButton from 'rn-button-component-helper';
 
 <RNButton
-    accessibilityLabel={accessibilityLabel}
     onPress={onPress}
-    activeOpacity={activeOpacity}
     type={type}
-    buttonStyle={{buttonStyle}}
-    textStyle={{textStyle}}
     text={text}
     />
 ```
