@@ -1,7 +1,7 @@
 {
     "name": "rn-icon-component-helper",
-    "version": "1.0.1",
-    "description": "Cross-platform button for React Native which supports keyword button component, custom button, etc",
+    "version": "1.0.2",
+    "description": "Cross-platform icon for React Native which supports keyword icon component, custom icon, etc",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
