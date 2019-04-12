@@ -1,6 +1,6 @@
 # rn-icon-component-helper
 
-A cross-platform (iOS, Android) button for React Native.
+A cross-platform (iOS, Android) icon for React Native.
 
 Features:
 * Cross-platform (iOS, Android)
