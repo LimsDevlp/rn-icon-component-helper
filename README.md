@@ -1,4 +1,4 @@
-# rn-button-component-helper
+# rn-icon-component-helper
 
 A cross-platform (iOS, Android) button for React Native.
 
@@ -6,56 +6,33 @@ Features:
 * Cross-platform (iOS, Android)
 * Default styling works well
 * Extensively customisable styling and rendering
-* Many button type variations:
-    `small round`, `normal round`, `big round`, `small box`, `normal box`, `big box`, etc.  
+* Use everything icon in react-native-vector-icons  
 
 ## Installation
 
-Use Npm to install package: `npm install rn-button-component-helper`
+Use Npm to install package: `npm install rn-icon-component-helper`
 
-Use Yarn to install package: `yarn add rn-button-component-helper`
+Use Yarn to install package: `yarn add rn-icon-component-helper`
+
+`NOTED`: Dont forget install and link react-native-vector-icons.
 
 ## Props
 
-- `activeOpacity`: Determines what the opacity of the wrapped view should be when touch is active. Defaults to 0.2.
-- `type`: The variants of button. Default to normal round
-- `text`: Text of button. Default to none
-- `onPress`: Called when the touch is released, but not if cancelled (e.g. by a scroll that steals the responder lock).
-- `accessibilityLabel`: Overrides the text that's read by the screen reader when the user interacts with the element.
-- `buttonStyle`: Styling for custom button (TouchableOpacityProps). 
-- `textStyle`: Styling for custom text (StyleProp<TextStyle>).
+- `name`: Set name icon (All name in react-native-vector-icons). Defaults to mobile.
+- `type`: Set type icon (All type in react-native-vector-icons). Default to type entypo.
+- `size`: Set size icon (Number). Default to 12
+- `color`: Set color icon (Color code).
+- `style`: Set style icon.
+- `buttonStyle`: Styling for custom button (TouchableOpacityProps).
 
 ## Basic Usage
 
 ```js
-import RNButton from 'rn-button-component-helper';
+import Icon from 'rn-icon-component-helper';
 
-<RNButton
-    onPress={onPress}
-    type={type}
-    text={text}
-    />
-```
-
-## Custom Usage
-
-```js
-import RNButton from 'rn-button-component-helper';
-
-<RNButton
-    accessibilityLabel={accessibilityLabel}
-    onPress={onPress}
-    activeOpacity={activeOpacity}
-    type={type}
-    buttonStyle={{buttonStyle}}
-    textStyle={{textStyle}}
-    >
-
-    {children}
-
-</RNButton>
+<Icon name='play-circle-outline' type='MaterialIcons' size={size} color={color} />
 ```
 
 ## License
 
-[MIT](https://github.com/LimsDevlp/rn-button-component-helper/raw/master/LICENSE.md)
+[MIT](https://github.com/LimsDevlp/rn-icon-component-helper/raw/master/LICENSE.md)

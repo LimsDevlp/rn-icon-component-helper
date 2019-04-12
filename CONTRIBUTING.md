@@ -1,10 +1,10 @@
-# Contribute to rn-button-component-helper
+# Contribute to rn-icon-component-helper
 
-This guide guidelines for those wishing to contribute to rn-button-component-helper.
+This guide guidelines for those wishing to contribute to rn-icon-component-helper.
 
 ## Contributor license agreement
 
-By submitting code as an individual or as an entity you agree that your code is [licensed the same as rn-button-component-helper](README.md).
+By submitting code as an individual or as an entity you agree that your code is [licensed the same as rn-icon-component-helper](README.md).
 
 ## Issues and pull requests
 
@@ -15,7 +15,7 @@ We will only accept a merge requests which meets the following criteria:
 * Can be merged without problems (if not please use: `git rebase master`)
 * Does not break any existing functionality
 * Fixes one specific issue or implements one specific feature (do not combine things, send separate merge requests if needed)
-* Keeps the rn-button-component-helper code base clean and well structured
+* Keeps the rn-icon-component-helper code base clean and well structured
 * Contains functionality we think other users will benefit from too
 * Doesn't add unnecessary configuration options since they complicate future changes
 * Update the docs in `README.md` if necessary
