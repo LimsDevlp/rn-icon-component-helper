@@ -1,6 +1,6 @@
 {
-    "name": "rn-button-component-helper",
-    "version": "1.0.2",
+    "name": "rn-icon-component-helper",
+    "version": "1.0.1",
     "description": "Cross-platform button for React Native which supports keyword button component, custom button, etc",
     "main": "index.js",
     "scripts": {
@@ -8,31 +8,33 @@
     },
     "peerDependencies": {
         "react": ">=16.0.0",
-        "react-native": ">=0.50.0"
+        "react-native": ">=0.50.0",
+        "react-native-vector-icons": ">=6.4.1"
+    },
+    "dependencies": {
+        "react-native-vector-icons": "^6.4.1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/LimsDevlp/rn-button-component-helper.git"
+        "url": "git+https://github.com/LimsDevlp/rn-icon-component-helper.git"
     },
     "keywords": [
         "react",
         "native",
         "react-native",
-        "react-component",
+        "react-native-component",
+        "react-native-vector-icons",
         "ios",
         "android",
-        "button",
-        "custombutton",
+        "icon",
+        "customicon",
         "customcomponent",
-        "type",
-        "typebutton",
-        "template",
-        "templatebutton"
+        "iconhelper"
     ],
     "author": "Nuralim <lims.devlp@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/LimsDevlp/rn-button-component-helper/issues"
+        "url": "https://github.com/LimsDevlp/rn-icon-component-helper/issues"
     },
-    "homepage": "https://github.com/LimsDevlp/rn-button-component-helper#readme"
+    "homepage": "https://github.com/LimsDevlp/rn-icon-component-helper#readme"
 }
