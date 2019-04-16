@@ -1,15 +1,29 @@
 {
     "name": "rn-icon-component-helper",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Cross-platform icon for React Native which supports keyword icon component, custom icon, etc",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "files": [
+        "dist/index.js"
+    ],
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel index.js --out-dir dist",
+        "prepublish": "npm run build"
     },
     "peerDependencies": {
         "react": ">=16.0.0",
         "react-native": ">=0.50.0",
         "react-native-vector-icons": ">=6.4.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.0",
+        "@babel/core": "^7.2.0",
+        "@babel/preset-env": "^7.2.0",
+        "@babel/preset-es2015": "^7.0.0-beta.53",
+        "metro-react-native-babel-preset": "0.49.2",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
     },
     "dependencies": {
         "react-native-vector-icons": "^6.4.1"
